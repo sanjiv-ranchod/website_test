@@ -1,16 +1,17 @@
 
 talks:
-  - title: "Understanding Quantum Foam"
-    event: "Frontiers in Physics Symposium"
-    location: "Cambridge, UK"
-    year: 2024
+  - title: "Substitution for Substrutural Theories"
+    event: "nternational Category Theory Conference (CT2025)"
+    location: "Brno, Czech Republic"
+    year: 2025
     type: "Talk"
     link: "https://example.com/video"
     pdf: "/assets/talks/quantum-foam.pdf"
-  - title: "Understanding Quantum Foam"
-    event: "Frontiers in Physics Symposium"
-    location: "Cambridge, UK"
-    year: 2024
+
+  - title: "Substructural Abstract Syntax with Variable Binding and Single-Variable Substitution"
+    event: "Fortieth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)"
+    location: "Singapore"
+    year: 2025
     type: "Talk"
     link: "https://example.com/video"
     pdf: "/assets/talks/quantum-foam.pdf"

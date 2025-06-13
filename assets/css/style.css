@@ -1,11 +1,11 @@
 
 :root {
   --background-color: #adc178;
-  --navbar-background: #344e41;
+  --navbar-background: #939f5b;
   --card-background: #ffffff;
   --box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
   --link-hover: #588157;
-  --heading-colour: #6c584c
+  --heading-colour: #6c584c;
 }
 
 body {
@@ -24,7 +24,7 @@ html {
   justify-content: space-between;
   align-items: center;
   background-color: var(--navbar-background);
-  padding: 1em;
+  padding: 1.5em;
   position: fixed;
   top: 0;
   width: 100%;
@@ -35,6 +35,11 @@ html {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.5em;
+}
+
+.nav-center {
+  padding-right: 1.5rem;
 }
 
 .nav-center a {
@@ -51,6 +56,7 @@ html {
   padding: 5em 1em 2em;
   max-width: 1000px;
   margin: 0 auto;
+  scroll-margin-top: 100px;
 }
 
 .about-section {
