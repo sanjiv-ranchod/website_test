@@ -6,7 +6,7 @@ layout: default
 <section id="about" class="about-section">
   <div class="about-content">
     <div class="about-image">
-      <img src="https://via.placeholder.com/200" alt="Profile Image">
+      <img src="https://picsum.photos/250/400" alt="Profile Image">
     </div>
     <div class="about-text">
       <p> Hi there, my name is </p>
@@ -38,7 +38,7 @@ layout: default
             {{ paper.title }}
           {% endif %}
         </h4>
-        <p class="paper-details">with {{ paper.authors }}</p>
+        <p class="paper-details"> <em>with</em> {{ paper.authors }}</p>
         <p class="paper-journal">{{ paper.journal }}</p>
         <p class="paper-year">{{ paper.year }}</p>
         <div class="paper-links">
@@ -77,7 +77,6 @@ layout: default
             <a class="btn" href="{{ talk.pdf }}" target="_blank" rel="noopener">PDF</a>
           {% endif %}
         </div>
-        <hr>
       </div>
     {% endfor %}
     </div>

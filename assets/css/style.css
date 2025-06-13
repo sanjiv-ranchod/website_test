@@ -2,10 +2,15 @@
 :root {
   --background-color: #adc178;
   --navbar-background: #939f5b;
-  --card-background: #ffffff;
+  --card-background: #f6edd4;
   --box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
   --link-hover: #588157;
   --heading-colour: #6c584c;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 body {
@@ -59,8 +64,7 @@ html {
 }
 
 section {
-  scroll-margin-top: 100px;
-
+  scroll-margin-top: 80px;
 }
 
 .about-section {
@@ -175,7 +179,22 @@ section {
   text-decoration: none;
 }
 
+.talk-title{
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.talk-title a {
+  color: var(--heading-colour);
+  text-decoration: none;
+  font-size: 1em;
+}
+
 .about-myname {
   margin-block-start: 0;
   margin-block-end: 0;
+}
+
+.paper-detail {
+  font-size: 0.5em;
 }
