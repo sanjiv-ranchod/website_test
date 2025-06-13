@@ -14,6 +14,10 @@ layout: default
       <p>and welcome to my academic webpage! First, a bit about me...</p>
       <p>
       I am a PhD student in Category Theory at the University of Cambridge, under the supervision on Professor Marcelo Fiore. My broad research interests are in Categorical Logic and Categorical Algebra.
+
+      More specifically, I am currently on category theoretic models of substitution for substructural theories as well as various aspects of internal category theory.
+
+      Before my PhD, I completed my BSc, Honours and Masters degrees at the University of Cape Town under the supervision of Professor George Janelidze during which I spent two 6 month periods at Universite Catholique de Louvain under the supervision of Professor Marino Gran.
       </p>
     </div>
   </div>
