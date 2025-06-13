@@ -9,6 +9,8 @@
   --heading-colour: #6c584c;
   --text-brown: #503c31;
   --mini-box-shadow: 3px 3px 0 rgba(0,0,0,0.2);
+  --font-inter: 'Inter', sans-serif;
+  --font-alice:  "Alice", serif;
 }
 
 p {
@@ -18,7 +20,7 @@ p {
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-alice);
   background-color: var(--background-color);
   color: #333;
 }
@@ -31,8 +33,10 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: var(--navbar-background); */
+  background-color: var(--card-background);
   padding: 1.5em;
+  box-shadow: var(--box-shadow);
+  border-radius: 0.25em;
   position: fixed;
   top: 0;
   width: 100%;
@@ -41,6 +45,11 @@ html {
   margin: 11px auto;
   left: 50%;
   transform: translateX(-50%);
+  color: var(--text-brown);
+}
+
+.nav-left {
+  padding-left: 2em;
 }
 
 .nav-left a {
