@@ -1,0 +1,9 @@
+
+publications:
+  - title: "Quantum Mechanics and You"
+    authors: "Alice Smith, Bob Jones"
+    year: 2024
+    journal: "Journal of Amazing Physics"
+    link: "https://example.com/quantum"
+    arxiv: "https://arxiv.org/abs/1234.5678"
+    pdf: "/assets/papers/quantum.pdf"

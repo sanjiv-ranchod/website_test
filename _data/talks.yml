@@ -1,0 +1,9 @@
+
+talks:
+  - title: "Understanding Quantum Foam"
+    event: "Frontiers in Physics Symposium"
+    location: "Cambridge, UK"
+    year: 2024
+    type: "Talk"
+    link: "https://example.com/video"
+    pdf: "/assets/talks/quantum-foam.pdf"

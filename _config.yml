@@ -1,6 +1,5 @@
-title: Your Name
-description: Academic Website
-baseurl: ""  # keep empty for GitHub Pages with custom domain or use "/repo-name"
-url: ""       # your domain, leave empty for GitHub Pages
-theme: null
-markdown: kramdown
+
+title: My Academic Website
+description: A single-page academic website
+baseurl: ""
+url: ""
