@@ -23,6 +23,11 @@ layout: default
       </p>
     </div>
   </div>
+  <div class="scroll-down">
+  <a href="#papers" aria-label="Scroll to Papers section">
+    ↓
+  </a>
+</div>
 </section>
 
 <!-- Papers -->

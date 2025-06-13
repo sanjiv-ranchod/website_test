@@ -41,8 +41,8 @@ html {
   top: 0;
   width: 100%;
   z-index: 1000;
-  max-width: 97%;
-  margin: 11px auto;
+  max-width: 94%;
+  margin: 15px auto;
   left: 50%;
   transform: translateX(-50%);
   color: var(--text-brown);
@@ -229,3 +229,28 @@ section {
   font-size: 2em;
 }
 
+.scroll-down {
+  text-align: center;
+  margin-top: 2rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+}
+
+.scroll-down a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--color-text);
+  animation: bounce 2s infinite;
+  display: inline-block;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
