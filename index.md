@@ -17,8 +17,9 @@ layout: default
 
 <!-- Papers -->
 <section id="papers" class="papers-section">
-  <div class="papers-container">
-    <h2>Papers</h2>
+  <div class="papers-container section-container">
+    <h2 class="section-title">Papers</h2>
+    <div class="card-list">
     {% assign sorted_papers = site.data.papers.publications | sort: "year" | reverse %}
     {% for paper in sorted_papers %}
       <div class="paper-entry card">
@@ -43,6 +44,7 @@ layout: default
         <hr>
       </div>
     {% endfor %}
+    </div>
   </div>
 </section>
 

@@ -105,3 +105,23 @@ html {
 .btn:hover {
   background-color: var(--link-hover);
 }
+
+.section-container {
+  max-width: 900px;      /* or whatever width fits your design */
+  margin: 0 auto;        /* center container horizontally */
+  padding: 1rem 1.5rem;  /* optional horizontal padding */
+}
+
+.section-title {
+  margin-left: 0;        /* align left exactly with container */
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
