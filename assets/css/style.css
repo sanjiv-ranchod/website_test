@@ -20,7 +20,7 @@ p {
 
 body {
   margin: 0;
-  font-family: var(--font-alice);
+  font-family: var(--font-inter);
   background-color: var(--background-color);
   color: #333;
 }
@@ -39,9 +39,9 @@ html {
   border-radius: 0.25em;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 85%;
   z-index: 1000;
-  max-width: 94%;
+  max-width: calc(100% - 70px);
   margin: 15px auto;
   left: 50%;
   transform: translateX(-50%);
