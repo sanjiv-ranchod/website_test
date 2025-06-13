@@ -50,8 +50,9 @@ layout: default
 
 <!-- Talks & Posters -->
 <section id="talks-posters" class="talks-section">
-  <div class="talks-container">
-    <h2>Talks & Posters</h2>
+  <div class="talks-container section-container">
+    <h2 class="section-title">Talks & Posters</h2>
+    <div class="card-list">
     {% assign sorted_talks = site.data.talks.talks | sort: "year" | reverse %}
     {% for talk in sorted_talks %}
       <div class="talk-entry card">
@@ -72,5 +73,6 @@ layout: default
         <hr>
       </div>
     {% endfor %}
+    </div>
   </div>
 </section>
