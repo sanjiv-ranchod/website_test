@@ -119,14 +119,17 @@ html {
 
 @media (max-width: 768px) {
   .nav-center {
-    display: none;
+    /* display: none; */
     width: 100%;
     flex-direction: column;
     padding-top: 0.5rem;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
   }
 
-  .nav-links.nav-expanded {
-    display: flex;
+  .nav-center.nav-expanded {
+    /* display: flex; */
+    max-height: 500px;
   }
 
   .nav-toggle {
