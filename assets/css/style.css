@@ -136,17 +136,21 @@ section {
 }
 
 .btn {
-  background-color: var(--navbar-background);
-  color: white;
+  box-shadow: var(--box-shadow);
+  background-color: #ffffff;
+  color: var(--navbar-background);
   padding: 0.4em 0.8em;
-  border-radius: 0.25em;
+  border-radius: 0;
   text-decoration: none;
   margin-right: 0.5em;
   display: inline-block;
+  border-color: var(--navbar-background);
+  border: 3px solid var(--navbar-background);
 }
 
 .btn:hover {
-  background-color: var(--link-hover);
+  background-color: var(--navbar-background);
+  color: #ffffff;
 }
 
 .section-container {
