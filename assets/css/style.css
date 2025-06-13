@@ -3,7 +3,7 @@
   --background-color: #adc178;
   --navbar-background: #344e41;
   --card-background: #ffffff;
-  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
   --link-hover: #588157;
 }
 
@@ -80,7 +80,7 @@ html {
 .card {
   background-color: var(--card-background);
   box-shadow: var(--box-shadow);
-  border-radius: 0.25em;
+  /* border-radius: 0.25em; */
   padding: 1.5em;
   margin-bottom: 2em;
   max-width: 800px;
