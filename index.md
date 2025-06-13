@@ -9,8 +9,12 @@ layout: default
       <img src="https://via.placeholder.com/200" alt="Profile Image">
     </div>
     <div class="about-text">
-      <h2>About Me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+      <p> Hi there, my name is </p>
+      <h2 class="about-myname">Sanjiv Ranchod</h2>
+      <p>and welcome to my academic webpage! First, a bit about me...</p>
+      <p>
+      I am a PhD student in Category Theory at the University of Cambridge, under the supervision on Professor Marcelo Fiore. My broad research interests are in Categorical Logic and Categorical Algebra.
+      </p>
     </div>
   </div>
 </section>
@@ -41,7 +45,6 @@ layout: default
             <a class="btn" href="{{ paper.pdf }}" target="_blank">PDF</a>
           {% endif %}
         </div>
-        <hr>
       </div>
     {% endfor %}
     </div>
