@@ -5,6 +5,7 @@
   --card-background: #ffffff;
   --box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
   --link-hover: #588157;
+  --heading-colour: #6c584c
 }
 
 body {
@@ -79,14 +80,14 @@ html {
 
 .about-text {
   background-color: var(--card-background);
-  padding: 1.5em;
+  padding: 1em;
   box-shadow: var(--box-shadow);
-  border-radius: 0.25em;
+  /* border-radius: 0.25em; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%; /* will match image if flexbox is used right */
-  max-width: 500px;
+  max-width: 700px;
 }
 
 .profile-image {
@@ -109,9 +110,9 @@ html {
   background-color: var(--card-background);
   box-shadow: var(--box-shadow);
   /* border-radius: 0.25em; */
-  padding: 1.5em;
-  margin-bottom: 2em;
-  max-width: 800px;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -152,4 +153,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+.paper-title{
+  color: var(--heading-colour)
 }
