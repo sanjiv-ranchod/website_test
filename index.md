@@ -21,7 +21,7 @@ layout: default
     <h2>Papers</h2>
     {% assign sorted_papers = site.data.papers.publications | sort: "year" | reverse %}
     {% for paper in sorted_papers %}
-      <div class="paper-entry">
+      <div class="paper-entry card">
         <h4 class="paper-title">
           {% if paper.link %}
             <a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a>
@@ -52,7 +52,7 @@ layout: default
     <h2>Talks & Posters</h2>
     {% assign sorted_talks = site.data.talks.talks | sort: "year" | reverse %}
     {% for talk in sorted_talks %}
-      <div class="talk-entry">
+      <div class="talk-entry card">
         <h4 class="talk-title">{{ talk.title }}</h4>
         <p class="talk-details">
           {{ talk.type }} at <strong>{{ talk.event }}</strong>
