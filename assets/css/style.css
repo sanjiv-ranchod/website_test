@@ -61,6 +61,34 @@ html {
   flex-wrap: wrap;
 }
 
+.about-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.about-image img {
+  max-width: 200px;
+  height: auto;
+  box-shadow: var(--box-shadow);
+  border-radius: 0.25em;
+}
+
+
+.about-text {
+  background-color: var(--card-background);
+  padding: 1.5em;
+  box-shadow: var(--box-shadow);
+  border-radius: 0.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; /* will match image if flexbox is used right */
+  max-width: 500px;
+}
+
 .profile-image {
   width: 300px;
   height: auto;
