@@ -2,6 +2,7 @@
 :root {
   --background-color: #adc178;
   --navbar-background: #939f5b;
+  --navbar-textcolor: #503c31;
   --card-background: #f6edd4;
   --box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
   --link-hover: #588157;
@@ -30,16 +31,20 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--navbar-background);
+  /* background-color: var(--navbar-background); */
   padding: 1.5em;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
+  max-width: 97%;
+  margin: 11px auto;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .nav-left a {
-  color: white;
+  color: var(--navbar-textcolor);
   text-decoration: none;
   font-weight: bold;
   font-size: 1.5em;
@@ -50,7 +55,7 @@ html {
 }
 
 .nav-center a {
-  color: white;
+  color: var(--navbar-textcolor);
   margin: 0 1em;
   text-decoration: none;
 }
