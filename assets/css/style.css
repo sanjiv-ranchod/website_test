@@ -31,6 +31,28 @@ html {
   scroll-behavior: smooth;
 }
 
+.btn {
+  box-shadow: var(--mini-box-shadow);
+  background-color: var(--btn-colour);
+  color: var(--card-background);
+  padding: 0.2em 0.6em;
+  /* border-radius: 0; */
+  text-decoration: none;
+  margin-right: 0.5em;
+  display: inline-block;
+  border-color: var(--navbar-background);
+  /* border: 3px solid var(--navbar-background); */
+  border-radius: 0.25em;
+  font-size: 0.8em;
+}
+
+.btn:hover {
+  background-color: var(--btn-hover);
+  color: var(--card-background);
+  transform: translateY(1px) translateX(1px);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
 .navbar {
   background-color: var(--text-brown);
   box-shadow: var(--box-shadow);
@@ -51,7 +73,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.7em;
+  padding: 0.7em;
 }
 
 .nav-left {
@@ -184,27 +206,7 @@ section {
   margin-top: 0.5em;
 }
 
-.btn {
-  box-shadow: var(--mini-box-shadow);
-  background-color: var(--btn-colour);
-  color: var(--card-background);
-  padding: 0.2em 0.6em;
-  /* border-radius: 0; */
-  text-decoration: none;
-  margin-right: 0.5em;
-  display: inline-block;
-  border-color: var(--navbar-background);
-  /* border: 3px solid var(--navbar-background); */
-  border-radius: 0.25em;
-  font-size: 0.8em;
-}
 
-.btn:hover {
-  background-color: var(--btn-hover);
-  color: var(--card-background);
-  transform: translateY(1px) translateX(1px);
-  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
-}
 
 .section-container {
   max-width: 900px;      /* or whatever width fits your design */
