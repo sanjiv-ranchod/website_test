@@ -69,7 +69,7 @@ html {
 .nav-center {
   display: flex;
   /* list-style: none; */
-  gap: 2rem;
+  /* gap: 2rem; */
   /* margin: 0; */
   /* padding: 0; */
   /* flex: 2; */
@@ -81,6 +81,11 @@ html {
   color: var(--navbar-textcolor);
   margin: 0 1em;
   text-decoration: none;
+}
+
+.nav-center-mobile a{
+  margin: 1em 1em;
+  display:none;
 }
 
 .nav-center a:hover {
@@ -113,6 +118,10 @@ html {
     max-height: 600px;
     /* opacity: 1;
     pointer-events: auto; */
+  }
+
+  .nav-center-mobile a{
+    display: block;
   }
 
   .nav-center-big {
