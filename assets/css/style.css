@@ -140,6 +140,17 @@ html {
     padding-left: 0;
   }
 
+  .about-content {
+    flex-direction: column;
+    margin-top: 8em;
+    gap: 1em;
+  }
+
+  .about-text{
+    width: 90%;
+    padding: 0.5em
+  }
+
 }
 
 .section {
