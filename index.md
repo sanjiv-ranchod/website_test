@@ -24,7 +24,7 @@ layout: default
     </div>
   </div>
   <div class="scroll-down">
-  <a href="#papers" aria-label="Scroll to Papers section">
+  <a class="card" href="#papers" aria-label="Scroll to Papers section">
     ↓
   </a>
 </div>
