@@ -39,7 +39,7 @@ html {
   top: 0;
   width: 85%;
   z-index: 1000;
-  max-width: calc(100% - 70px);
+  max-width: calc(100% - 1.6em);
   margin: 15px auto;
   left: 50%;
   transform: translateX(-50%);
@@ -113,6 +113,10 @@ html {
     max-height: 600px;
     /* opacity: 1;
     pointer-events: auto; */
+  }
+
+  .nav-center-big {
+    display: none;
   }
 
   .nav-toggle {
