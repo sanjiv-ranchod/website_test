@@ -11,7 +11,7 @@
   --mini-box-shadow: 3px 3px 0 rgba(0,0,0,0.2);
   --font-inter: 'Inter', sans-serif;
   --font-alice:  "Alice", serif;
-  --btn-colour: #503c31;
+  --btn-colour: #885222;
   --btn-hover: #b47944;
 }
 
@@ -32,7 +32,7 @@ html {
 }
 
 .navbar {
-  background-color: var(--card-background);
+  background-color: var(--text-brown);
   box-shadow: var(--box-shadow);
   border-radius: 0.25em;
   position: fixed;
@@ -43,7 +43,7 @@ html {
   margin: 15px auto;
   left: 50%;
   transform: translateX(-50%);
-  color: var(--text-brown);
+  color: var(--card-background);
   flex-wrap: wrap;
 }
 
@@ -51,16 +51,16 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5em;
+  padding: 1.7em;
 }
 
 .nav-left {
-  padding-left: 2em;
+  padding-left: 1em;
   flex: 1;
 }
 
 .nav-left a {
-  color: var(--navbar-textcolor);
+  color: var(--card-background);
   text-decoration: none;
   font-weight: bold;
   font-size: 1.5em;
@@ -74,13 +74,20 @@ html {
   /* padding: 0; */
   /* flex: 2; */
   justify-content: center;
-  padding-right: 2em;
+  padding-right: 0em;
 }
 
 .nav-center a {
   color: var(--navbar-textcolor);
-  margin: 0 1em;
+  margin: 0 0.4em;
   text-decoration: none;
+  color: var(--card-background);
+  padding: 7px 12px;
+  font-size: 0.9em;
+}
+
+.nav-center a:hover {
+  color: var(--text-brown);
 }
 
 .nav-center-mobile a{
@@ -88,9 +95,6 @@ html {
   display:none;
 }
 
-.nav-center a:hover {
-  color: var(--link-hover);
-}
 
 .nav-toggle {
   display: none;

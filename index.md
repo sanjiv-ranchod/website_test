@@ -9,9 +9,7 @@ layout: default
       <img src="https://picsum.photos/250/400" alt="Profile Image">
     </div>
     <div class="about-text">
-      <p> Hi there, my name is </p>
-      <h2 class="about-myname">Sanjiv Ranchod</h2>
-      <p>and welcome to my academic webpage! First, a bit about me...</p>
+      <p> Hi there, my name is Sanjiv and welcome to my academic webpage! First, a bit about me...</p>
       <p>
       I am a PhD student in Category Theory at the University of Cambridge, under the supervision on Professor Marcelo Fiore. My broad research interests are in Categorical Logic and Categorical Algebra.
       </p>
