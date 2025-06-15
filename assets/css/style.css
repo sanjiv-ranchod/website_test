@@ -12,7 +12,8 @@
   --font-inter: 'Inter', sans-serif;
   --font-alice:  "Alice", serif;
   --btn-colour: #885222;
-  --btn-hover: #b47944;
+  --btn-hover: #673e1a;
+  /* --btn-hover: #b47944; */
 }
 
 p {
@@ -120,10 +121,6 @@ html {
   font-size: 0.9em;
 }
 
-.nav-center a:hover {
-  color: var(--text-brown);
-}
-
 .nav-center-mobile a{
   margin: 1em 1em;
   display:none;
@@ -208,12 +205,10 @@ section {
   margin-top: 0.5em;
 }
 
-
-
 .section-container {
-  max-width: 900px;      /* or whatever width fits your design */
-  margin: 0 auto;        /* center container horizontally */
-  padding: 1rem 0.8rem;  /* optional horizontal padding */
+  max-width: 900px;      
+  margin: 0 auto;        
+  padding: 0.5em 0.8em; 
 }
 
 .section-title {
@@ -302,7 +297,7 @@ section {
   text-decoration: none;
   /* animation: bounce 2s infinite; */
   display: inline-block;
-  padding: 0.2em 0.3em;
+  padding: 0.1em 0.3em;
 }
 
 @keyframes bounce {
