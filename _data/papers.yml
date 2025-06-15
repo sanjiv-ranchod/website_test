@@ -7,13 +7,13 @@ publications:
     link: "https://example.com/quantum"
     arxiv: "https://arxiv.org/abs/1234.5678"
     pdf: "/assets/papers/quantum.pdf"
-  - title: "Quantum Mechanics and You"
-    authors: "Alice Smith, Bob Jones"
-    year: 2024
-    journal: "Journal of Amazing Physics"
-    link: "https://example.com/quantum"
-    arxiv: "https://arxiv.org/abs/1234.5678"
-    pdf: "/assets/papers/quantum.pdf"
+  - title: "A Finite Algebraic Presentation of Lawvere Theories in the Object-Classifier Topos"
+    authors: "Marcelo Fiore"
+    year: 2025
+    journal: "Theory and Applications of Categories"
+    link: "http://www.tac.mta.ca/tac/volumes/43/7/43-07abs.html"
+    arxiv: "https://arxiv.org/abs/2408.08980"
+    pdf: "http://www.tac.mta.ca/tac/volumes/43/7/43-07.pdf"
   - title: "Quantum Mechanics and You"
     authors: "Alice Smith, Bob Jones"
     year: 2024
