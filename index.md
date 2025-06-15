@@ -73,13 +73,16 @@ layout: default
           {{ talk.type }} at <strong>{{ talk.event }}</strong>
           {% if talk.location %}, {{ talk.location }}{% endif %}
         </p>
-        <p class="talk-year">{{ talk.year }}</p>
+        <p class="talk-year">{% if talk.upcoming%}Upcoming, {% endif %}{{ talk.year }}</p>
         <div class="talk-links">
+          {% if talk.abstract %}
+            <a class="btn" href="{{ talk.abstract }}" target="_blank" rel="noopener">Abstract</a>
+          {% endif %}
           {% if talk.link %}
             <a class="btn" href="{{ talk.link }}" target="_blank" rel="noopener">Link</a>
           {% endif %}
-          {% if talk.pdf %}
-            <a class="btn" href="{{ talk.pdf }}" target="_blank" rel="noopener">PDF</a>
+          {% if talk.slides %}
+            <a class="btn" href="{{ talk.slides }}" target="_blank" rel="noopener">Slides</a>
           {% endif %}
         </div>
       </div>

@@ -1,12 +1,12 @@
 
 publications:
-  - title: "Quantum Mechanics and You"
-    authors: "Alice Smith, Bob Jones"
-    year: 2024
-    journal: "Journal of Amazing Physics"
-    link: "https://example.com/quantum"
-    arxiv: "https://arxiv.org/abs/1234.5678"
-    pdf: "/assets/papers/quantum.pdf"
+  - title: "Substructural Abstract Syntax with Variable Binding and Single-Variable Substitution"
+    authors: "Mercelo Fiore"
+    year: 2025
+    journal: "In press."
+    link: "https://arxiv.org/abs/2505.24812"
+    arxiv: "https://arxiv.org/abs/2505.24812"
+    pdf: "https://arxiv.org/pdf/2505.24812"
   - title: "A Finite Algebraic Presentation of Lawvere Theories in the Object-Classifier Topos"
     authors: "Marcelo Fiore"
     year: 2025
@@ -14,10 +14,10 @@ publications:
     link: "http://www.tac.mta.ca/tac/volumes/43/7/43-07abs.html"
     arxiv: "https://arxiv.org/abs/2408.08980"
     pdf: "http://www.tac.mta.ca/tac/volumes/43/7/43-07.pdf"
-  - title: "Quantum Mechanics and You"
-    authors: "Alice Smith, Bob Jones"
-    year: 2024
-    journal: "Journal of Amazing Physics"
-    link: "https://example.com/quantum"
-    arxiv: "https://arxiv.org/abs/1234.5678"
-    pdf: "/assets/papers/quantum.pdf"
+  # - title: "Quantum Mechanics and You"
+  #   authors: "Alice Smith, Bob Jones"
+  #   year: 2024
+  #   journal: "Journal of Amazing Physics"
+  #   link: "https://example.com/quantum"
+  #   arxiv: "https://arxiv.org/abs/1234.5678"
+  #   pdf: "/assets/papers/quantum.pdf"

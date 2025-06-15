@@ -1,31 +1,36 @@
 
 talks:
   - title: "Substitution for Substrutural Theories"
-    event: "nternational Category Theory Conference (CT2025)"
+    event: "International Category Theory Conference (CT2025)"
     location: "Brno, Czech Republic"
+    upcoming: true
     year: 2025
+    date: 20250716
     type: "Talk"
-    link: "https://example.com/video"
-    pdf: "/assets/talks/quantum-foam.pdf"
+    link: "https://conference.math.muni.cz/ct2025/"
 
   - title: "Substructural Abstract Syntax with Variable Binding and Single-Variable Substitution"
     event: "Fortieth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)"
     location: "Singapore"
+    upcoming: true
     year: 2025
     type: "Talk"
-    link: "https://example.com/video"
-    pdf: "/assets/talks/quantum-foam.pdf"
-  - title: "Understanding Quantum Foam"
-    event: "Frontiers in Physics Symposium"
-    location: "Cambridge, UK"
-    year: 2024
+    link: "https://lics.siglog.org/lics25/index.php"
+
+  - title: "Substitution for Linear-Cartesian and Full Substructural Theories"
+    event: "ItaCa Fest"
+    location: "Online"
+    year: 2025
     type: "Talk"
-    link: "https://example.com/video"
-    pdf: "/assets/talks/quantum-foam.pdf"
-  - title: "Understanding Quantum Foam"
-    event: "Frontiers in Physics Symposium"
-    location: "Cambridge, UK"
-    year: 2024
+    link: "https://progetto-itaca.github.io/fests/fest25.html"
+    # slides: "/assets/talks/quantum-foam.pdf" #!!!!
+    abstract: "https://progetto-itaca.github.io/fests/fest25.html#ranchod"
+
+  - title: "Category Theoretic Models of Substitution for Substructural Theories"
+    event: "The Stockholm Logic Seminar"
+    location: "Stockholm, Sweden"
+    year: 2025
+    date: 20250404
     type: "Talk"
-    link: "https://example.com/video"
-    pdf: "/assets/talks/quantum-foam.pdf"
+    link: "https://logic.math.su.se/seminar/"
+    abstract: "https://logic.math.su.se/seminar/#:~:text=Sanjiv%20Ranchod%2C%20University%20of%20Cambridge"
