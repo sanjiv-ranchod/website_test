@@ -1,7 +1,7 @@
 
 :root {
-  --background-color: #96ab5d;
-  /*  #adc178 */
+  --background-color: #7b8550;
+  /*  #adc178 #96ab5d */ 
   --navbar-background: #939f5b;
   --navbar-textcolor: #503c31;
   --card-background: #f6edd4;
@@ -12,8 +12,8 @@
   --mini-box-shadow: 3px 3px 0 rgba(0,0,0,0.2);
   --font-inter: 'Inter', sans-serif;
   --font-alice:  "Alice", serif;
-  --btn-colour: #885222;
-  --btn-hover: #673e1a;
+  --btn-colour: #85572f;
+  --btn-hover: #744725;
   /* --btn-hover: #b47944; */
 }
 
