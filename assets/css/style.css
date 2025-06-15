@@ -52,7 +52,7 @@ html {
   box-shadow: var(--mini-box-shadow);
   background-color: var(--btn-colour);
   color: var(--card-background);
-  padding: 0.2em 0.6em;
+  padding: 0.3em 0.6em;
   /* border-radius: 0; */
   text-decoration: none;
   margin-right: 0.5em;
@@ -282,6 +282,19 @@ section {
   color: var(--heading-colour);
   text-decoration: none;
   font-size: 1em;
+}
+
+.talk-details {
+  font-size: 0.85em;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+}
+
+.talk-year {
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+  font-size: 0.85em;
+  font-style: italic;
 }
 
 .about-myname {

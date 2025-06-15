@@ -70,8 +70,7 @@ layout: default
       <div class="talk-entry card">
         <h4 class="talk-title">{{ talk.title }}</h4>
         <p class="talk-details">
-          {{ talk.type }} at <strong>{{ talk.event }}</strong>
-          {% if talk.location %}, {{ talk.location }}{% endif %}
+          <em>{{ talk.type }} at</em> <strong>{{ talk.event }}</strong>{% if talk.location %}, {{ talk.location }}{% endif %}
         </p>
         <p class="talk-year">{% if talk.upcoming%}Upcoming, {% endif %}{{ talk.year }}</p>
         <div class="talk-links">
