@@ -1,6 +1,7 @@
 
 :root {
-  --background-color: #adc178;
+  --background-color: #96ab5d;
+  /*  #adc178 */
   --navbar-background: #939f5b;
   --navbar-textcolor: #503c31;
   --card-background: #f6edd4;
@@ -113,7 +114,6 @@ html {
 }
 
 .nav-center a {
-  color: var(--navbar-textcolor);
   margin: 0 0.4em;
   text-decoration: none;
   color: var(--card-background);
@@ -122,10 +122,14 @@ html {
 }
 
 .nav-center-mobile a{
-  margin: 1em 1em;
-  display:none;
+  margin: 0.3em 0.8em;
+  padding: 11px 12px;
+  display: none;
 }
 
+.nav-last {
+  margin-bottom: 14px;
+}
 
 .nav-toggle {
   display: none;
@@ -144,7 +148,7 @@ html {
 }
 
 section {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 60px;
 }
 
 .about-section {
@@ -236,9 +240,9 @@ section {
 }
 
 .paper-title a {
-  color: var(--heading-colour);
+  color: var(--btn-colour);
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .paper-links {
