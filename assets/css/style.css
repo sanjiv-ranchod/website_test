@@ -12,6 +12,7 @@
   --mini-box-shadow: 3px 3px 0 rgba(0,0,0,0.2);
   --font-inter: 'Inter', sans-serif;
   --font-alice:  "Alice", serif;
+  --font-aleo: "Aleo", serif;
   --btn-colour: #85572f;
   --btn-hover: #744725;
   /* --btn-hover: #b47944; */
@@ -24,9 +25,11 @@ p {
 
 body {
   margin: 0;
-  font-family: var(--font-inter);
+  font-family: var(--font-aleo);
   background-color: var(--background-color);
   color: #333;
+  letter-spacing: 0.75px;
+  word-spacing: 1.5px;
 }
 
 html {
