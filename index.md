@@ -6,7 +6,7 @@ layout: default
 <section id="about" class="about-section">
   <div class="about-content">
     <div class="about-image">
-      <img src="https://picsum.photos/250/400" alt="Profile Image">
+      <img src="assets/img/profile_pic.jpg" alt="Profile Image">
     </div>
     <div class="about-text">
       <p> Hi there, my name is Sanjiv and welcome to my academic webpage! A bit about me...</p>

@@ -296,7 +296,7 @@ section {
   font-size: 2rem;
   text-decoration: none;
   color: var(--color-text);
-  animation: bounce 2s infinite;
+  /* animation: bounce 2s infinite; */
   display: inline-block;
   padding: 0.2em 0.3em;
 }
@@ -366,6 +366,10 @@ section {
   .about-text{
     width: 90%;
     padding: 0.5em
+  }
+
+  .scroll-down {
+    display: none;
   }
 
 }
