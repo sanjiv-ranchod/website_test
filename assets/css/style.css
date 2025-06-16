@@ -220,7 +220,7 @@ section {
   /* width: 100%; */
   box-shadow: var(--box-shadow);
   background-color: var(--card-background);
-  padding: 0.4em 0.8em;
+  padding: 0.5em 0.8em;
   border-radius: 0.25em;
   color: var(--text-brown);
   margin-top: 0.8em;
@@ -229,10 +229,19 @@ section {
   align-items: center;
 }
 
+.about-email-box {
+  margin-top: 2px;
+}
+
 .about-email {
   font-weight: bold;
   color: var(--btn-colour);
   text-decoration: none;
+}
+
+.about-buttons a {
+  margin-left: 0.5em;
+  margin-right: 0;
 }
 
 /* .bio-box {
