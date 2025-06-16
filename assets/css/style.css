@@ -427,20 +427,31 @@ section {
   }
 
   .about-image img {
-    width: 100%;
+    max-width: 100%;
   }
 
   .about-text{
     /* width: 90%; */
-    padding: 0.5em
+    padding: 0.5em;
+    font-size: 0.9em;
   }
 
   .about-contact {
     flex-direction: column;
   }
 
+  .about-email-box {
+    width: 100%;
+  }
+
   .about-buttons {
     margin-top: 5px;
+    width: 100%;
+  }
+
+  .about-buttons a{
+    margin-left: 0;
+    margin-right: 0.5em;
   }
 
   .scroll-down {
