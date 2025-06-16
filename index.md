@@ -14,10 +14,10 @@ layout: default
       I am a PhD student in Category Theory at the University of Cambridge, under the supervision on Professor Marcelo Fiore. My broad research interests are in Categorical Logic and Categorical Algebra.
       </p>
       <p>
-      More specifically, I am currently on category theoretic models of substitution for substructural theories as well as various aspects of internal category theory.
+      More specifically, I am working currently on category theoretic models of substitution for substructural theories as well as various aspects of internal category theory.
       </p>
       <p>
-      Before my PhD, I completed my BSc, Honours and Masters degrees at the University of Cape Town under the supervision of Professor George Janelidze during which I spent two 6 month periods at Universite Catholique de Louvain under the supervision of Professor Marino Gran.
+      Previously, I completed my BSc, Honours and Masters degrees at the University of Cape Town under the supervision of Professor George Janelidze during which I spent two 6 month periods at Universite Catholique de Louvain under the supervision of Professor Marino Gran.
       </p>
     </div>
   </div>
@@ -68,17 +68,20 @@ layout: default
     {% assign sorted_talks = site.data.talks.talks | sort: "year" | reverse %}
     {% for talk in sorted_talks %}
       <div class="talk-entry card">
-        <h4 class="talk-title">{{ talk.title }}</h4>
+        <h4 class="talk-title">
+          {% if talk.link %}
+            <a href="{{ talk.link }}" target="_blank">{{ talk.title }}</a>
+          {% else %}
+            {{ talk.title }}
+          {% endif %}
+        </h4>
         <p class="talk-details">
-          <em>{{ talk.type }} at</em> <strong>{{ talk.event }}</strong>{% if talk.location %}, {{ talk.location }}{% endif %}
+          <em>{{ talk.type }} at</em> {{ talk.event }}
         </p>
         <p class="talk-year">{% if talk.upcoming%}Upcoming, {% endif %}{{ talk.year }}</p>
         <div class="talk-links">
           {% if talk.abstract %}
             <a class="btn" href="{{ talk.abstract }}" target="_blank" rel="noopener">Abstract</a>
-          {% endif %}
-          {% if talk.link %}
-            <a class="btn" href="{{ talk.link }}" target="_blank" rel="noopener">Link</a>
           {% endif %}
           {% if talk.slides %}
             <a class="btn" href="{{ talk.slides }}" target="_blank" rel="noopener">Slides</a>

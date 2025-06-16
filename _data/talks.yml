@@ -6,7 +6,7 @@ talks:
     upcoming: true
     year: 2025
     date: 20250716
-    type: "Talk"
+    type: "Contributed Talk"
     link: "https://conference.math.muni.cz/ct2025/"
 
   - title: "Substructural Abstract Syntax with Variable Binding and Single-Variable Substitution"
@@ -14,14 +14,14 @@ talks:
     location: "Singapore"
     upcoming: true
     year: 2025
-    type: "Talk"
+    type: "Contributed Talk"
     link: "https://lics.siglog.org/lics25/index.php"
 
   - title: "Substitution for Linear-Cartesian and Full Substructural Theories"
     event: "ItaCa Fest"
     location: "Online"
     year: 2025
-    type: "Talk"
+    type: "Invited Talk"
     link: "https://progetto-itaca.github.io/fests/fest25.html"
     # slides: "/assets/talks/quantum-foam.pdf" #!!!!
     abstract: "https://progetto-itaca.github.io/fests/fest25.html#ranchod"
@@ -31,6 +31,21 @@ talks:
     location: "Stockholm, Sweden"
     year: 2025
     date: 20250404
-    type: "Talk"
+    type: "Seminar Talk"
     link: "https://logic.math.su.se/seminar/"
     abstract: "https://logic.math.su.se/seminar/#:~:text=Sanjiv%20Ranchod%2C%20University%20of%20Cambridge"
+
+  - title: "Mixed Linear-Cartesian Theories as Substitution Monoids"
+    event: "SANDWICH Seminar, Cambridge CST"
+    year: 2024
+    date: 20241125
+    type: "Seminar Talk"
+
+  - title: "Lawvere Theories and Symmetric Operads as Substitution Algebras: Free constructions for Abstract Syntax"
+    event: "International Category Theory Conference (CT2024)"
+    year: 2024
+    date: 20240627
+    type: "Contributed Talk"
+    abstract: "https://www.usc.gal/regaca/ct2024/files/Abstracts/Ranchod.pdf"
+    slides: "http://xabier.garcia.martinez.webs.uvigo.gal/CT2024/files/Slides/Ranchod_Slides.pdf"
+    link: "https://www.usc.gal/regaca/ct2024/"
