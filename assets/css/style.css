@@ -179,17 +179,30 @@ section {
   border-radius: 0.25em;
 }
 
+.profile-image {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  margin-right: 2em;
+  box-shadow: var(--box-shadow);
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* will match image if flexbox is used right */
+  max-width: 700px;
+}
+
 
 .about-text {
   background-color: var(--card-background);
-  padding: 1em;
+  padding: 0.4em 0.8em;
   box-shadow: var(--box-shadow);
   border-radius: 0.25em;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  /* flex-direction: column; */
   justify-content: center;
-  height: 100%; /* will match image if flexbox is used right */
-  max-width: 700px;
   color: var(--text-brown);
 }
 
@@ -203,12 +216,13 @@ section {
   color: var(--btn-colour);
 }
 
-.profile-image {
-  width: 300px;
-  height: auto;
-  object-fit: cover;
-  margin-right: 2em;
+.about-content {
+  width: 100%;
   box-shadow: var(--box-shadow);
+  background-color: var(--card-background);
+  padding: 0.4em 0.8em;
+  border-radius: 0.25em;
+  color: var(--text-brown);
 }
 
 .bio-box {
