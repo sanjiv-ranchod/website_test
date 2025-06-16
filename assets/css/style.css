@@ -225,6 +225,8 @@ section {
   color: var(--text-brown);
   margin-top: 0.8em;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .about-email {
