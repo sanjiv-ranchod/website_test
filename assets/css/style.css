@@ -224,6 +224,7 @@ section {
   border-radius: 0.25em;
   color: var(--text-brown);
   margin-top: 0.8em;
+  display: flex;
 }
 
 .about-email {
@@ -232,13 +233,13 @@ section {
   text-decoration: none;
 }
 
-.bio-box {
+/* .bio-box {
   background-color: var(--card-background);
   padding: 2em;
   box-shadow: var(--box-shadow);
   max-width: 500px;
   flex: 1;
-}
+} */
 
 .buttons {
   margin-top: 0.5em;
