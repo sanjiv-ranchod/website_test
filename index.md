@@ -11,13 +11,13 @@ layout: default
     <div class="about-text">
       <p> Hi there, my name is Sanjiv and welcome to my academic webpage! A bit about me...</p>
       <p>
-      I am a PhD student in Category Theory at the University of Cambridge (United Kingdom), under the supervision on <a href="https://www.cl.cam.ac.uk/~mpf23/">Professor Marcelo Fiore</a>. My broad research interests are in Categorical Logic and Categorical Algebra.
+      I am a PhD student in Category Theory at the <a href="https://www.cst.cam.ac.uk/" target="_blank">University of Cambridge</a> (United Kingdom) as a <a href="https://www.gatescambridge.org/" target="_blank">Gates Cambridge Scholar</a>, under the supervision on <a href="https://www.cl.cam.ac.uk/~mpf23/" target="_blank">Professor Marcelo Fiore</a>. My broad research interests are in Categorical Logic and Categorical Algebra.
       </p>
       <p>
-      More specifically, I am working currently on category theoretic models of substructural theories - such as Lawvere theories and symmetric operads - as substitution algebras and substitution monoids, generalisations of species of structure, and abstract syntax of binding and second-order theories. I often make use of aspects of symmetric monoidal- and 2-category theory. I also work on internal category theory in the context of categorical algebra.
+      More specifically, I am currently working on category theoretic models of substructural theories - such as Lawvere theories and symmetric operads - as substitution algebras and substitution monoids, generalisations of species of structure, and abstract syntax of binding and second-order theories. I often make use of aspects of symmetric monoidal- and 2-category theory. I also work on internal category theory in the context of categorical algebra.
       </p>
       <p>
-      Previously, I completed my BSc, Honours and Masters degrees at the University of Cape Town (South Africa) under the supervision of Professor George Janelidze during which I spent a year at Université Catholique de Louvain (Belgium) under the supervision of Professor Marino Gran.
+      Previously, I completed my BSc, Honours and Masters degrees at the <a href="https://science.uct.ac.za/departments/mathematics-applied-mathematics" target="_blank">University of Cape Town</a> (South Africa) under the supervision of <a href="https://science.uct.ac.za/department-mathematics/contacts/george-janelidze" target="_blank">Professor George Janelidze</a> during which I spent a year at <a href="https://www.uclouvain.be/fr/instituts-recherche/irmp" target="_blank">Université Catholique de Louvain</a> (Belgium) under the supervision of <a href="https://perso.uclouvain.be/marino.gran/" target="_blank">Professor Marino Gran</a>.
       </p>
     </div>
   </div>
