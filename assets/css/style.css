@@ -193,6 +193,16 @@ section {
   color: var(--text-brown);
 }
 
+.about-text  p{
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.about-text p a{
+  text-decoration: none;
+  color: var(--btn-colour);
+}
+
 .profile-image {
   width: 300px;
   height: auto;

@@ -11,7 +11,7 @@ layout: default
     <div class="about-text">
       <p> Hi there, my name is Sanjiv and welcome to my academic webpage! A bit about me...</p>
       <p>
-      I am a PhD student in Category Theory at the University of Cambridge (United Kingdom), under the supervision on Professor Marcelo Fiore. My broad research interests are in Categorical Logic and Categorical Algebra.
+      I am a PhD student in Category Theory at the University of Cambridge (United Kingdom), under the supervision on <a href="https://www.cl.cam.ac.uk/~mpf23/">Professor Marcelo Fiore</a>. My broad research interests are in Categorical Logic and Categorical Algebra.
       </p>
       <p>
       More specifically, I am working currently on category theoretic models of substructural theories - such as Lawvere theories and symmetric operads - as substitution algebras and substitution monoids, generalisations of species of structure, and abstract syntax of binding and second-order theories. I often make use of aspects of symmetric monoidal- and 2-category theory. I also work on internal category theory in the context of categorical algebra.
