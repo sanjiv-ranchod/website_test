@@ -22,7 +22,7 @@ layout: default
         </p>
       </div>
       <div class="about-contact">
-      Email : sanjiv.ranchod@cl.cam.ac.uk
+      Email : <a href=mailto:sanjiv.ranchod@cl.cam.ac.uk" class="about-email">sanjiv.ranchod@cl.cam.ac.uk</a>
       </div>
     </div>
   </div>

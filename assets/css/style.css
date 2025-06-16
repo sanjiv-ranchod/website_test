@@ -191,7 +191,7 @@ section {
   display: flex;
   flex-direction: column;
   height: 100%; /* will match image if flexbox is used right */
-  max-width: 700px;
+  max-width: 750px;
 }
 
 
@@ -200,7 +200,7 @@ section {
   padding: 0.4em 0.8em;
   box-shadow: var(--box-shadow);
   border-radius: 0.25em;
-  width: 100%;
+  /* width: 100%; */
   /* flex-direction: column; */
   justify-content: center;
   color: var(--text-brown);
@@ -216,13 +216,19 @@ section {
   color: var(--btn-colour);
 }
 
-.about-content {
-  width: 100%;
+.about-contact {
+  /* width: 100%; */
   box-shadow: var(--box-shadow);
   background-color: var(--card-background);
   padding: 0.4em 0.8em;
   border-radius: 0.25em;
   color: var(--text-brown);
+  margin-top: 0.8em;
+}
+
+.about-email {
+  font-weight: bold;
+  color: var(--btn-colour);
 }
 
 .bio-box {
