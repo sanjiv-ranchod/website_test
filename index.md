@@ -38,7 +38,7 @@ layout: default
   <div class="papers-container section-container">
     <h2 class="section-title card">Papers</h2>
     <div class="card-list">
-    {% assign sorted_papers = site.data.papers.publications | sort: "year" | reverse %}
+    {% assign sorted_papers = site.data.papers.publications | sort: "date" | reverse %}
     {% for paper in sorted_papers %}
       <div class="paper-entry card">
         <h4 class="paper-title">
@@ -70,7 +70,7 @@ layout: default
   <div class="talks-container section-container">
     <h2 class="section-title card">Talks & Posters</h2>
     <div class="card-list">
-    {% assign sorted_talks = site.data.talks.talks | sort: "year" | reverse %}
+    {% assign sorted_talks = site.data.talks.talks | sort: "date" | reverse %}
     {% for talk in sorted_talks %}
       <div class="talk-entry card">
         <h4 class="talk-title">

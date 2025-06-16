@@ -229,6 +229,7 @@ section {
 .about-email {
   font-weight: bold;
   color: var(--btn-colour);
+  text-decoration: none;
 }
 
 .bio-box {

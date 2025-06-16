@@ -14,6 +14,7 @@ talks:
     location: "Singapore"
     upcoming: true
     year: 2025
+    date: 20250624
     type: "Contributed Talk"
     link: "https://lics.siglog.org/lics25/index.php"
 
@@ -21,6 +22,7 @@ talks:
     event: "ItaCa Fest"
     location: "Online"
     year: 2025
+    date: 20250520
     type: "Invited Talk"
     link: "https://progetto-itaca.github.io/fests/fest25.html"
     # slides: "/assets/talks/quantum-foam.pdf" #!!!!

@@ -3,6 +3,7 @@ publications:
   - title: "Substructural Abstract Syntax with Variable Binding and Single-Variable Substitution"
     authors: "Marcelo Fiore"
     year: 2025
+    date: 20250700
     journal: "In press."
     link: "https://arxiv.org/abs/2505.24812"
     arxiv: "https://arxiv.org/abs/2505.24812"
@@ -11,11 +12,12 @@ publications:
   - title: "A Finite Algebraic Presentation of Lawvere Theories in the Object-Classifier Topos"
     authors: "Marcelo Fiore"
     year: 2025
+    date: 20250316
     journal: "Theory and Applications of Categories"
     link: "http://www.tac.mta.ca/tac/volumes/43/7/43-07abs.html"
     arxiv: "https://arxiv.org/abs/2408.08980"
     pdf: "http://www.tac.mta.ca/tac/volumes/43/7/43-07.pdf"
-    
+
   # - title: "Quantum Mechanics and You"
   #   authors: "Alice Smith, Bob Jones"
   #   year: 2024
