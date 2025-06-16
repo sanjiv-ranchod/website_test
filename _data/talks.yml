@@ -8,6 +8,7 @@ talks:
     date: 20250716
     type: "Contributed Talk"
     link: "https://conference.math.muni.cz/ct2025/"
+    abstract: "assets/pdf/CT2025_Abstract.pdf"
 
   - title: "Substructural Abstract Syntax with Variable Binding and Single-Variable Substitution"
     event: "Fortieth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)"
@@ -25,7 +26,7 @@ talks:
     date: 20250520
     type: "Invited Talk"
     link: "https://progetto-itaca.github.io/fests/fest25.html"
-    # slides: "/assets/talks/quantum-foam.pdf" #!!!!
+    slides: "assets/pdf/ItaCa_2025_Slides.pdf"
     abstract: "https://progetto-itaca.github.io/fests/fest25.html#ranchod"
 
   - title: "Category Theoretic Models of Substitution for Substructural Theories"
@@ -51,3 +52,18 @@ talks:
     abstract: "https://www.usc.gal/regaca/ct2024/files/Abstracts/Ranchod.pdf"
     slides: "http://xabier.garcia.martinez.webs.uvigo.gal/CT2024/files/Slides/Ranchod_Slides.pdf"
     link: "https://www.usc.gal/regaca/ct2024/"
+
+  - title: "A New Approach to Abstract Syntax with Variable Binding for Cartesian Theories"
+    event: "Junior Category Theory Seminar, UCLouvain"
+    year: 2024
+    date: 20240419
+    type: "Seminar Talk"
+
+  - title: "Internal Factorisation Systems"
+    event: "Topology, Algebra and Categories in Logic (TACL)"
+    year: 2022
+    date: 20220621
+    type: "Contributed Talk"
+    abstract: "https://www.mat.uc.pt/~tacl2022/pdfs/TACL_2022_paper_38.pdf"
+    slides: "https://www.mat.uc.pt/~tacl2022/slides/slidesSRanchod.pdf"
+    link: "https://www.uclouvain.be/en/research-institutes/irmp/junior-colloquium-0"
