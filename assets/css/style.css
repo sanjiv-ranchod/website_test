@@ -61,6 +61,7 @@ html {
   /* border: 3px solid var(--navbar-background); */
   border-radius: 0.25em;
   font-size: 0.8em;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -214,6 +215,7 @@ section {
 .about-text p a{
   text-decoration: none;
   color: var(--btn-colour);
+  cursor: pointer;
 }
 
 .about-contact {

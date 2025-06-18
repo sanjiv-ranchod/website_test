@@ -28,7 +28,7 @@ talks:
     link: "https://progetto-itaca.github.io/fests/fest25.html"
     slides: "assets/pdf/ItaCa_2025_Slides.pdf"
     abstract: "https://progetto-itaca.github.io/fests/fest25.html#ranchod"
-    recording: "https://www.youtube.com/watch?v=uhxa5lxwpoU&ab_channel=ProgettoItaCa"
+    recording: "https://www.youtube.com/watch?v=uhxa5lxwpoU"
 
   - title: "Category Theoretic Models of Substitution for Substructural Theories"
     event: "The Stockholm Logic Seminar"
