@@ -94,6 +94,9 @@ layout: default
           {% if talk.abstract %}
             <a class="btn" href="{{ talk.abstract }}" target="_blank" rel="noopener">Abstract</a>
           {% endif %}
+          {% if talk.recording %}
+            <a class="btn" href="{{ talk.recording }}" target="_blank" rel="noopener">Recording</a>
+          {% endif %}
           {% if talk.slides %}
             <a class="btn" href="{{ talk.slides }}" target="_blank" rel="noopener">Slides</a>
           {% endif %}

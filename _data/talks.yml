@@ -28,6 +28,7 @@ talks:
     link: "https://progetto-itaca.github.io/fests/fest25.html"
     slides: "assets/pdf/ItaCa_2025_Slides.pdf"
     abstract: "https://progetto-itaca.github.io/fests/fest25.html#ranchod"
+    recording: "https://www.youtube.com/watch?v=uhxa5lxwpoU&ab_channel=ProgettoItaCa"
 
   - title: "Category Theoretic Models of Substitution for Substructural Theories"
     event: "The Stockholm Logic Seminar"
@@ -58,6 +59,7 @@ talks:
     year: 2024
     date: 20240419
     type: "Seminar Talk"
+    link: "https://www.uclouvain.be/en/research-institutes/irmp/junior-colloquium-0"
 
   - title: "Internal Factorisation Systems"
     event: "Topology, Algebra and Categories in Logic (TACL)"
@@ -66,4 +68,3 @@ talks:
     type: "Contributed Talk"
     abstract: "https://www.mat.uc.pt/~tacl2022/pdfs/TACL_2022_paper_38.pdf"
     slides: "https://www.mat.uc.pt/~tacl2022/slides/slidesSRanchod.pdf"
-    link: "https://www.uclouvain.be/en/research-institutes/irmp/junior-colloquium-0"
